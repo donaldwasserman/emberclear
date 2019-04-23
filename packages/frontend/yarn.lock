@@ -247,7 +247,7 @@
     "@babel/helper-create-class-features-plugin" "^7.4.0"
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-proposal-decorators@^7.1.2", "@babel/plugin-proposal-decorators@^7.3.0":
+"@babel/plugin-proposal-decorators@^7.3.0":
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.4.0.tgz#8e1bfd83efa54a5f662033afcc2b8e701f4bb3a9"
   integrity sha512-d08TLmXeK/XbgCo7ZeZ+JaeZDtDai/2ctapTRsWWkkmy7G/cqz8DQN/HlWG7RR4YmfXxmExsbU3SuCjlM7AtUg==
@@ -701,16 +701,6 @@
   dependencies:
     exec-sh "^0.3.2"
     minimist "^1.2.0"
-
-"@ember-decorators/babel-transforms@^3.1.5":
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/@ember-decorators/babel-transforms/-/babel-transforms-3.1.5.tgz#6df543f7f1d862ad54d05555d548805e032f6514"
-  integrity sha512-dTcpIylGj+gU+GM3Se0mVn/NGcIFLDTJYE0h04WtBT+Szon8y0SKFPO4pyEz+NINNU6w+PRP/Y7GsT8txxdrYg==
-  dependencies:
-    "@babel/plugin-proposal-class-properties" "^7.1.0"
-    "@babel/plugin-proposal-decorators" "^7.1.2"
-    ember-cli-babel-plugin-helpers "^1.0.0"
-    ember-cli-version-checker "^2.1.0"
 
 "@ember-intl/formatjs-extract-cldr-data@^3.1.0":
   version "3.1.0"
@@ -1418,7 +1408,7 @@
   dependencies:
     "@types/node" "*"
 
-"@typescript-eslint/eslint-plugin@^1.6.0":
+"@typescript-eslint/eslint-plugin@^1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-1.7.0.tgz#570e45dc84fb97852e363f1e00f47e604a0b8bcc"
   integrity sha512-NUSz1aTlIzzTjFFVFyzrbo8oFjHg3K/M9MzYByqbMCxeFdErhLAcGITVfXzSz+Yvp5OOpMu3HkIttB0NyKl54Q==
@@ -1430,7 +1420,7 @@
     requireindex "^1.2.0"
     tsutils "^3.7.0"
 
-"@typescript-eslint/parser@1.7.0", "@typescript-eslint/parser@^1.6.0":
+"@typescript-eslint/parser@1.7.0", "@typescript-eslint/parser@^1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-1.7.0.tgz#c3ea0d158349ceefbb6da95b5b09924b75357851"
   integrity sha512-1QFKxs2V940372srm12ovSE683afqc1jB6zF/f8iKhgLz1yoSjYeGHipasao33VXKI+0a/ob9okeogGdKGvvlg==
@@ -5045,7 +5035,7 @@ ember-cli-notifications@^4.3.3:
     font-awesome "^4.7.0"
     postcss-cssnext "^3.0.2"
 
-ember-cli-page-object@^1.15.0:
+ember-cli-page-object@^1.15.3:
   version "1.15.3"
   resolved "https://registry.yarnpkg.com/ember-cli-page-object/-/ember-cli-page-object-1.15.3.tgz#4b1814e270367a455353aeb81019fb8d8c641886"
   integrity sha512-wGZqQnsyFHcJilf0xcWa53my/bprtZWHXg7m6wZPbWbnJCXNf1aAouj9uwH77r3PnE+/uYt0MIKMfX3Cnd607g==
@@ -5313,7 +5303,7 @@ ember-css-modules@^0.7.10:
     semver "^5.5.0"
     toposort "^1.0.6"
 
-ember-data@^3.9.0:
+ember-data@^3.9.1:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-3.9.1.tgz#ba9de5ffee05c0bcf061237b2d53b9a0258dfb2c"
   integrity sha512-qSyAMFiGwzrOvrR59HSVOFu5SYZRWyA6M0Utwi11lQzrG27/+na9317MQ56k71xKwisR5bvPO7HuYVl0iWzDeA==
@@ -5522,7 +5512,7 @@ ember-native-dom-helpers@^0.5.3:
     broccoli-funnel "^1.1.0"
     ember-cli-babel "^6.6.0"
 
-ember-on-modifier@^0.12.0:
+ember-on-modifier@^0.12.1:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/ember-on-modifier/-/ember-on-modifier-0.12.1.tgz#d63132b6967a9ee10e8eb59532523fdac1a205ed"
   integrity sha512-RQ2pqw3MKAAC21pMu4e95xDNF6PwDNIfGknJ4sMts5HKhL3cLyYs2E/AVGMYjhI/THYx9ccV9w7rg29n65lgGw==
@@ -5530,13 +5520,12 @@ ember-on-modifier@^0.12.0:
     ember-cli-babel "^7.7.3"
     ember-modifier-manager-polyfill "^1.0.3"
 
-ember-oo-modifiers@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/ember-oo-modifiers/-/ember-oo-modifiers-0.2.2.tgz#ca6fc8b9db3af481a8c03956876fa4e21189949e"
-  integrity sha512-T5rZ+5qPlcUuscPTz9bFnYnZnMSmlOz5+GNDf/Qi5jC/B4pU9/jar2J0EndHawwXA22985AsysJeklzY7vNcQQ==
+ember-oo-modifiers@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/ember-oo-modifiers/-/ember-oo-modifiers-0.3.0.tgz#a2fed357abb81ced47ca45b3530e5dd60ac606f7"
+  integrity sha512-50uURbx6meHV8ImcXZxaBtaxhJET+owszVQ1zuvOVRVZFu5QC+ZV4XtoVtXob3vBPn0/439dZkhyCRaSLR3JvQ==
   dependencies:
-    "@ember-decorators/babel-transforms" "^3.1.5"
-    ember-cli-babel "^7.1.2"
+    ember-cli-babel "^7.7.3"
     ember-modifier-manager-polyfill "^1.0.3"
 
 ember-percy@^1.5.0:
