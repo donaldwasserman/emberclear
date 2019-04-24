@@ -5237,7 +5237,7 @@ ember-cli-version-checker@^3.0.1, ember-cli-version-checker@^3.1.2, ember-cli-ve
     promise-map-series "^0.2.3"
     quick-temp "^0.1.8"
     resolve "^1.10.0"
-    resolve-package-path "^1.2.6"
+    resolve-package-path "^1.2.7"
     rsvp "^4.8.4"
     sane "^4.1.0"
     semver "^6.0.0"
@@ -8219,11 +8219,16 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-"libsodium-wrappers@github:jedisct1/libsodium.js#1eab22596cefded55b96b3569d4c02fc4aa2ee5c", libsodium@0.7.4, "libsodium@github:jedisct1/libsodium.js#1eab22596cefded55b96b3569d4c02fc4aa2ee5c":
+"libsodium-wrappers@github:jedisct1/libsodium.js#1eab22596cefded55b96b3569d4c02fc4aa2ee5c", "libsodium@github:jedisct1/libsodium.js#1eab22596cefded55b96b3569d4c02fc4aa2ee5c":
   version "0.7.4"
   resolved "https://codeload.github.com/jedisct1/libsodium.js/tar.gz/1eab22596cefded55b96b3569d4c02fc4aa2ee5c"
   dependencies:
     libsodium "0.7.4"
+
+libsodium@0.7.4:
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/libsodium/-/libsodium-0.7.4.tgz#a5bccd65e3a13b34147ea109be3c65d89f90b074"
+  integrity sha512-fTU3vUdrxQzhPAAjmTSqKk4LzYbR0OtcYjp1P92AlH50JIxXZFEIXWh1yryCmU6RLGfwS2IzBdZjbmpYf/TlyQ==
 
 lie@3.1.1:
   version "3.1.1"
